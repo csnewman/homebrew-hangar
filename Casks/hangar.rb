@@ -8,9 +8,9 @@
 cask "hangar" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.2"
-  sha256 arm:   "aa43e51488772cd2786c9ab1457c2463be2b051b7fa05cb24e316120cbc5b8f1",
-         intel: "af0859bfda28939e943ffb5fe8f88323c67e5c26aaf469e08785dd72010359a3"
+  version "0.1.3"
+  sha256 arm:   "021f06f691ce3a1239ce792a4df143b6ec77f7092a4467839044409f394c762b",
+         intel: "9fd6798abb617aa07c959030ab1050bfba7c033d3d7352930fa502f63da74e33"
 
   url "https://github.com/csnewman/hangar/releases/download/desktop-v#{version}/Hangar-#{version}-mac-#{arch}.zip"
   name "Hangar"
