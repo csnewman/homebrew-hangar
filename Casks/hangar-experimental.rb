@@ -7,8 +7,8 @@
 #   brew trust --cask csnewman/hangar/hangar-experimental
 #   brew install --cask hangar-experimental
 cask "hangar-experimental" do
-  version "0.1.2"
-  sha256 "43b9992d7dd528e12a8a1de765769500b57f402f7fa7443dbf38ab208cc9d78a"
+  version "0.1.3"
+  sha256 "a1242896bcc22796198adf35bd8611a796b1a0583c61a796799d53287362a379"
 
   url "https://github.com/csnewman/hangar/releases/download/app-v#{version}/Hangar-Experimental-#{version}-mac.zip"
   name "Hangar Experimental"
